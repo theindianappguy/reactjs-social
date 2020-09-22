@@ -1,5 +1,7 @@
 # Social Media App Build with React Js
 
+![reactsocial](https://user-images.githubusercontent.com/55942632/93935668-9f452880-fd42-11ea-88e9-e9309fcdad11.jpg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
