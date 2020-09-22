@@ -1,0 +1,38 @@
+.header {
+  background-color: white;
+  padding: 16px 20px;
+  border-bottom: 1px solid #dde0e1;
+  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+}
+
+.header > img {
+  height: 35px;
+}
+
+.header__Right {
+  display: flex;
+}
+
+.header__RightProfileImg {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
+
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.button:focus {
+  outline: none;
+}

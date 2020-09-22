@@ -1,15 +1,14 @@
 .post {
   max-width: 600px;
   background-color: white;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin-bottom: 16px;
 }
 
 .post__image {
   width: 100%;
   object-fit: contain;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
+  border-top: 0.5px solid #eff2f2;
+  border-bottom: 0.5px solid #eff2f2;
 }
 
 .post__header {
@@ -23,5 +22,5 @@
 }
 
 .post__bottom {
-  padding: 12px;
+  padding: 6px 12px;
 }

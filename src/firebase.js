@@ -8,7 +8,6 @@ const firebaseApp = firebase.initializeApp({
   storageBucket: "whatsapp-link-generator-5376e.appspot.com",
   messagingSenderId: "126870058992",
   appId: "1:126870058992:web:217d70e57ce93341568f35",
-  measurementId: "G-CYRDMD35LH",
 });
 
 const db = firebaseApp.firestore();

@@ -10,6 +10,7 @@ import CloseIcon from "@material-ui/icons/Close";
 import Typography from "@material-ui/core/Typography";
 import MuiAlert from "@material-ui/lab/Alert";
 import { auth } from "./firebase";
+import TextField from "@material-ui/core/TextField";
 
 const styles = (theme) => ({
   root: {
@@ -94,7 +95,7 @@ export default function AuthDialogs({ label }) {
       .createUserWithEmailAndPassword(email, password)
       .then((authUser) => {
         authUser.user.updateProfile({
-          displayName: "SanskarTiwari",
+          displayName: `${email.match(/^([^@]*)@/)[1]}`,
         });
       })
       .catch((error) => alert(error.message));
@@ -114,9 +115,6 @@ export default function AuthDialogs({ label }) {
         aria-labelledby="customized-dialog-title"
         open={open}
       >
-        <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-          MyPersonalDiary
-        </DialogTitle>
         <DialogContent dividers>
           <div
             style={{

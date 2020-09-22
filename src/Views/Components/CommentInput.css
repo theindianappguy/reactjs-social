@@ -1,0 +1,27 @@
+.commentInput {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 12px;
+}
+
+.commentInput__text {
+  flex: 1;
+}
+.commentInput__button {
+  margin-left: 24px;
+}
+
+.commentInput__textarea {
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  resize: none;
+}
+
+.commentInput__textarea {
+  border: none;
+}
+
+.commentInput__textarea:focus {
+  outline: none;
+}
